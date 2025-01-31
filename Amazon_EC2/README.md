@@ -13,6 +13,12 @@
 ## Preview 
 - In this task, you will launch an Amazon EC2 instance with termination protection. Termination protection prevents you from accidentally terminating an EC2 instance. You will deploy your instance with a User Data script that will allow you to deploy a simple web server.
 
+
+
+## Architecture diagram
+![Amazon EC2](https://labs.vocareum.com/web/3804907/3784050.0/ASNLIB/public/docs/lang/en-us/images/lab-scenario.jpeg)
+
+
 ## Steps
 1. In the AWS Management Console on the Services menu, choose EC2 name it and launch it
 2. Choosing an Amazon Machine Image (AMI),an AMI has different types of Operating systems like Amazon Linux 2 AMI
