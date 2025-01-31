@@ -16,7 +16,7 @@
 
 
 ## Architecture diagram
-![Amazon EC2](https://labs.vocareum.com/web/3804907/3784050.0/ASNLIB/public/docs/lang/en-us/images/lab-scenario.jpeg)
+![Amazon EC2](https://miro.medium.com/v2/resize:fit:828/format:webp/1*_U11fvM6VmurRCFcKqGSjg.jpeg)
 
 
 ## Steps
