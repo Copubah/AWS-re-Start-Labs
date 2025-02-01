@@ -52,3 +52,22 @@
     - Source: Anywhere-IPv4
     - Select Save rules
 - Return to the web server tab that you previously opened and refresh
+
+## Resizing your Instance: Instance Type and EBS Volume
+- As your needs change, you might find that your instance is over-utilized (too small) or under-utilized (too large). If so, you can change the instance type. For example, if a t3.micro instance is too small for its workload, you can change it to an m5.medium instance
+
+## Steps
+- Stop your instance and wait for it to display "stopped"
+- In the Actions  menu, select Instance Settings  Change Instance Type, then configure to your preference
+
+## Resize the EBS Volume
+- In the left navigation menu, select Volumes located under Elastic Block Store.
+- Select the volume by checking the box, and navigate to the Actions  menu, select Modify Volume
+- Start the Resized Instance
+
+## Termination Protection
+- In left navigation pane, select Instances.
+- Select the Web Server instance by checking the box and navigate to the top and select Instance state  menu, select  Terminate instance.
+- In the Actions  menu, select Instance settings  Change termination protection.
+- Uncheck  Enable followed by Save,You can now terminate the instance.
+- In the Actions  menu, select Instance State  Terminate instance.
