@@ -1,0 +1,38 @@
+The Linux command line is powerful for system administration, automation, and troubleshooting.
+
+Basic Commands
+pwd → Print the current directory
+ls → List files and directories
+cd [directory] → Change directory
+mkdir [dirname] → Create a directory
+rm [file] → Remove a file
+rm -r [dir] → Remove a directory and its contents
+cp [file] [destination] → Copy files
+mv [file] [destination] → Move or rename files
+File Operations
+touch [file] → Create an empty file
+cat [file] → View file contents
+nano [file] → Edit a file using Nano
+head [file] → Show the first 10 lines
+tail [file] → Show the last 10 lines
+grep "text" [file] → Search for text in a file
+User and System Information
+whoami → Show current user
+who → Show logged-in users
+uptime → Show system uptime
+df -h → Show disk usage
+free -m → Show memory usage
+Process Management
+ps aux → Show running processes
+top or htop → Monitor system usage
+kill [PID] → Kill a process by ID
+pkill [name] → Kill a process by name
+Networking
+ifconfig or ip a → Show network interfaces
+ping [host] → Check network connectivity
+netstat -tulnp → Show open ports
+wget [URL] → Download a file from the internet
+Permissions & Ownership
+chmod 755 [file] → Change file permissions
+chown user:group [file] → Change file owner
+sudo [command] → Run command as superuser
